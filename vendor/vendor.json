@@ -1,0 +1,46 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "Vr9almiISlLArA1reJvyNj7GUq0=",
+			"origin": "github.com/rancher/event-subscriber/vendor/github.com/gorilla/websocket",
+			"path": "github.com/gorilla/websocket",
+			"revision": "5b25da52df49ab2b10bc2e1b74cb02aa04802e9b",
+			"revisionTime": "2016-08-20T00:04:19Z"
+		},
+		{
+			"checksumSHA1": "2HSjyUZ4IMkCeA34TjJ0/f+Kk/k=",
+			"origin": "github.com/rancher/go-rancher/vendor/github.com/pkg/errors",
+			"path": "github.com/pkg/errors",
+			"revision": "96dc0b0438660397a2119fb2fd8ead1d6d56608f",
+			"revisionTime": "2016-08-18T18:24:31Z"
+		},
+		{
+			"checksumSHA1": "cLL5UG9pLo6bbN+uSwfeSZsiIQE=",
+			"path": "github.com/rancher/event-subscriber/events",
+			"revision": "5b25da52df49ab2b10bc2e1b74cb02aa04802e9b",
+			"revisionTime": "2016-08-20T00:04:19Z"
+		},
+		{
+			"checksumSHA1": "AXN5bBF+70vxlx4y3A1uttogK14=",
+			"path": "github.com/rancher/event-subscriber/locks",
+			"revision": "5b25da52df49ab2b10bc2e1b74cb02aa04802e9b",
+			"revisionTime": "2016-08-20T00:04:19Z"
+		},
+		{
+			"checksumSHA1": "1FgUfx4R2WhfJMIJzjN8XekXR2o=",
+			"path": "github.com/rancher/event-subscriber/testutils",
+			"revision": "5b25da52df49ab2b10bc2e1b74cb02aa04802e9b",
+			"revisionTime": "2016-08-20T00:04:19Z"
+		},
+		{
+			"checksumSHA1": "RcAcBaWRY1rwP9wgfrCs619KcN4=",
+			"origin": "github.com/rancher/event-subscriber/vendor/github.com/rancher/go-rancher/client",
+			"path": "github.com/rancher/go-rancher/client",
+			"revision": "96dc0b0438660397a2119fb2fd8ead1d6d56608f",
+			"revisionTime": "2016-08-18T18:24:31Z"
+		}
+	],
+	"rootPath": "test"
+}

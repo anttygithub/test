@@ -3,7 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/Sirupsen/logrus"
+	subscriber "test/asrc"
+
 	"github.com/urfave/cli"
 )
 
@@ -14,10 +15,6 @@ func main() {
 	app.Name = "test"
 	app.Version = VERSION
 	app.Usage = "You need help!"
-	app.Action = func(c *cli.Context) error {
-		logrus.Info("I'm a turkey")
-		return nil
-	}
-
+	app.Action = subscriber.Main
 	app.Run(os.Args)
 }
