@@ -3,8 +3,7 @@ package main
 import (
 	"os"
 
-	subscriber "test/asrc"
-
+	subscriber "github.com/anttygithub/test/asrc"
 	"github.com/urfave/cli"
 )
 

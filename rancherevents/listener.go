@@ -1,9 +1,8 @@
 package rancherevents
 
 import (
-	"test/config"
-	reventhandlers "test/rancherevents/eventhandlers"
-
+	"github.com/anttygithub/test/config"
+	reventhandlers "github.com/anttygithub/test/rancherevents/eventhandlers"
 	revents "github.com/rancher/event-subscriber/events"
 )
 

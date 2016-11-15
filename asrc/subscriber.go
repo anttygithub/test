@@ -1,11 +1,10 @@
 package subscriber
 
 import (
-	"test/config"
-	"test/healthcheck"
-	"test/rancherevents"
-
 	log "github.com/Sirupsen/logrus"
+	"github.com/anttygithub/test/config"
+	"github.com/anttygithub/test/healthcheck"
+	"github.com/anttygithub/test/rancherevents"
 	"github.com/urfave/cli"
 )
 
