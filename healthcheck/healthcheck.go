@@ -12,6 +12,7 @@ func healthcheck(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "ok")
 }
 
+//StartHealthCheck text
 func StartHealthCheck(port int) error {
 	if port <= 0 || port > 65535 {
 		return fmt.Errorf("Invalid health check port number: %v", port)

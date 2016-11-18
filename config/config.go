@@ -8,8 +8,8 @@ type Config struct {
 	CattleURL       string
 	CattleAccessKey string
 	CattleSecretKey string
-	WorkerCount     int
 	HealthCheckPort int
+	WorkerCount     int
 }
 
 func Conf(context *cli.Context) Config {
@@ -17,8 +17,8 @@ func Conf(context *cli.Context) Config {
 		CattleURL:       context.String("cattle-url"),
 		CattleAccessKey: context.String("cattle-access-key"),
 		CattleSecretKey: context.String("cattle-secret-key"),
+		HealthCheckPort: context.Int("health-check-port"),
 		WorkerCount:     context.Int("worker-count"),
-		HealthCheckPort: context.Int("health-check-prot"),
 	}
 	return config
 }
